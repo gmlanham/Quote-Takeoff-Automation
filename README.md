@@ -1,5 +1,5 @@
 # Quote-Takeoff-Automation
-This repository contains an automated takeoff and quote package for concrete construction projects.
+This repository contains documentation of an automated takeoff and quote package for concrete construction projects. The actual Word and Excel documents that contain the VBA that parses and imports text from on application to the other are proprietary. They might be made available with permission from the sponsor.
 
 Quote-Takeoff Utility User’s Guide
 The Quote-Takeoff Utility, QT, is a proprietary, Office Automation Application built for Marshall Construction. The standard Microsoft Office applications, Word and Excel are used with Visual Basic (VB) programming behind the documents. Basically, the QT application copies Shawn’s Takeoff and Jinelle’s Quote templates to pastes them into the corresponding parts of QT. The VB code then edits the copies to build a Quote. Neither Shawn’s nor Jinelle’s documents are change in any way nor are calculations done. All numbers are as Shawn calculated them.
