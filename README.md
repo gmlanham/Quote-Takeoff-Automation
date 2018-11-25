@@ -26,7 +26,7 @@ Summary of Steps:
  
 1.	Quick Quote
 Quick Quote takes the next step in automation. With Quick Quote (1), the application opens Excel; then from Word runs the Excel, “Select Takeoff”, procedure. After the Takeoff is chosen, it is automatically copied to the TakeoffUtility. The type of takeoff is determined by matching key phrases; then the appropriate Quote Template is copied based on the matches. Finally, the Quote is built. All of these procedures are run automatically, with the only user input being to select the Takeoff.
-
+![alt text](images/ControlPanel.png "Main Control Panel")
 
 
 This series of procedures runs smoothly, as long as, the client information is in the Timberline database and the default OPI and Extras are acceptable. If the client is not found (2), the “Input Client Information” form opens (3); then the process flow continues without further user input.  
