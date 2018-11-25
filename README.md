@@ -26,6 +26,7 @@ Summary of Steps:
  
 1.	Quick Quote
 Quick Quote takes the next step in automation. With Quick Quote (1), the application opens Excel; then from Word runs the Excel, “Select Takeoff”, procedure. After the Takeoff is chosen, it is automatically copied to the TakeoffUtility. The type of takeoff is determined by matching key phrases; then the appropriate Quote Template is copied based on the matches. Finally, the Quote is built. All of these procedures are run automatically, with the only user input being to select the Takeoff.
+
 ![alt text](images/ControlPanel.png "Main Control Panel")
 
 
