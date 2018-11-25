@@ -2,9 +2,13 @@
 This repository contains documentation of an automated takeoff and quote package for concrete construction projects. The actual Word and Excel documents that contain the VBA that parses and imports text from on application to the other are proprietary. They might be made available with permission from the sponsor.
 
 Quote-Takeoff Utility User’s Guide
+
 The Quote-Takeoff Utility, QT, is a proprietary, Office Automation Application built for Marshall Construction. The standard Microsoft Office applications, Word and Excel are used with Visual Basic (VB) programming behind the documents. Basically, the QT application copies Shawn’s Takeoff and Jinelle’s Quote templates to pastes them into the corresponding parts of QT. The VB code then edits the copies to build a Quote. Neither Shawn’s nor Jinelle’s documents are change in any way nor are calculations done. All numbers are as Shawn calculated them.
+
 Finished Quotes from the Estimating 2012 folder guide the wording produced by QT3. Sometimes the templates and the real-life quotes are different. In those cases, the actual quotes guide the wording.
+
 The steps to building a Quote are not set in concrete; the order can be varied. For example, the TakeoffUtility can be opened directly without opening the QuoteUtility first. If this is done, then start at Step 3, as described in this guide. Steps 3-14 are all done in the TakeoffUtility. If a Takeoff is already loaded in the utility, then the Quote can be built immediately. Just click-on Build Quote and you are done. 
+
 The guiding principle in this latest version of QT3 is to keep it simple. The following is a Quick Reference Guide to QT3.
 Summary of Steps:
 1.	Quick Quote
@@ -31,7 +35,9 @@ Quick Quote takes the next step in automation. With Quick Quote (1), the applica
 
 
 This series of procedures runs smoothly, as long as, the client information is in the Timberline database and the default OPI and Extras are acceptable. If the client is not found (2), the “Input Client Information” form opens (3); then the process flow continues without further user input.  
+
 “Quick Quote” is the easiest way to build a quote when the default items are acceptable. However, the “Build Quote” procedure has more flexibility, allowing the OPI and Extras to be edited manually in the Excel, Takeoff before building the Word, Quote. Ironically, when the Takeoff is already setup in the TakeoffUtility, the “Build Quote” procedure requires less process and is much faster than the “Quick Quote” procedure.
+
 1.	Open Quote Utility:
 The quote building process generally starts with the QuoteUtility. The QuoteUtility is a Word Document with Visual Basic code behind the pages (.docm). The QuoteUtility is found in the Estimating directory, QT folder. The functionality of the utility is accessed through the Control Panel. 
 
@@ -56,6 +62,7 @@ There are Control Panels for the two main parts of QT: QuoteUtility and TakeoffU
 4.	Wait ~12 seconds for Excel to open:    
 
 Note: the QuoteUtility, Visual Basic programming, can get confused when other Word document are open while the QuoteUtility is processing. The safest procedure is to close other Word documents. 
+
 Most problems occur while opening Excel from Word. When QT hangs, close Excel. It might not be visible; check the Task Manager to see if there is an open Excel process causing the problem. The Windows Task Manager is opened by right clicking on the Taskbar at the bottom of the screen (1). 
 
 
