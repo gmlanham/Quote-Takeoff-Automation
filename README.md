@@ -1,5 +1,5 @@
 # Quote-Takeoff-Automation
-This repository contains documentation of an automated takeoff and quote package for concrete construction projects. The actual Word and Excel documents that contain the VBA that parses and imports text from on application to the other are proprietary. They might be made available with permission from the sponsor.
+This repository contains documentation of an automated takeoff and quote package for concrete construction projects. The actual Word and Excel documents that contain the VBA that parses and imports text from one application to the other are proprietary. They might be made available with permission from the sponsor.
 
 Quote-Takeoff Utility User’s Guide
 
